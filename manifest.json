@@ -1,0 +1,41 @@
+{
+  "manifest_version": "1.0",
+  "org": "asimov-modules",
+  "repo": "asimov-whatsapp-module",
+  "versions": [
+    {
+      "commit": "775675ed8b9ac96f51844d2a32178014c255db47",
+      "parsed_at": "2026-09-28T07:31:19.464132+00:00",
+      "tag": "0.0.1",
+      "filetree": "filetree/775675ed8b9ac96f51844d2a32178014c255db47.nq.gz",
+      "blobs": [
+        "blob/2b0c788e2596d934456a7ce78cc4e7f3fe40e217.nq.gz",
+        "blob/779b1556bdfd351df91a1ac2b5965423e0aeb0a3.nq.gz",
+        "blob/9fe50de16e59d550235aa6d7d15ee12ddf054414.nq.gz",
+        "blob/10b359dd05935c73efb064470f9ecda90f6d28aa.nq.gz",
+        "blob/91825a15bd47be191d72a58f40809bb4f36c2bb1.nq.gz",
+        "blob/efb98088164f5786b17e83ed384971fc3c74f93c.nq.gz",
+        "blob/a0b02ef97f672cc65e2362cc26102e6cd4ea1fdb.nq.gz",
+        "blob/cf42f6893594e2f8be2b722de51123d65e4d61c4.nq.gz",
+        "blob/75e3b65f99b29f48ab230e3eab3de8d0b7a9229f.nq.gz",
+        "blob/bd258c057ff14a4e87c0d7df4f5d5c91a1bdc5cf.nq.gz",
+        "blob/d896fada89f907fdd862871be886c73003b340dc.nq.gz",
+        "blob/e3e57a8ce4ccbf74759a6df8fa4a3980ff1c9209.nq.gz",
+        "blob/5d7dce87a40bfd4d48e4d958c9c1d641dfaa22eb.nq.gz",
+        "blob/8acdd82b765e8e0b8cd8787f7f18c7fe2ec52493.nq.gz",
+        "blob/b79496c555f0aad6c3430d107cbd210d5a213071.nq.gz",
+        "blob/5ce44ba9d63ada47d0c562c8f2f33dc87c55a737.nq.gz",
+        "blob/d47d445d7010eabcd057b4b10440e6e47304237e.nq.gz",
+        "blob/3f7a460159a40edf9302bd9d3f2c8a6cdbd7c121.nq.gz",
+        "blob/a3fead7f33c09a3a92cc9e40a1fdae99655dd610.nq.gz",
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
+        "blob/6995075d2aa0fcf85b0c4434341ab53c9d343ae0.nq.gz",
+        "blob/be61068482c9eef58d992fffba11d067e4e916f8.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz"
+}
