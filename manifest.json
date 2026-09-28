@@ -212,7 +212,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wacore-0.2.0/src/pair_code.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/775675ed8b9ac96f51844d2a32178014c255db47/chunk-001.nq.gz",
+      "dep": "dep/775675ed8b9ac96f51844d2a32178014c255db47.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
