@@ -34,6 +34,184 @@
       ],
       "ast": [
         "aggregate/ast/775675ed8b9ac96f51844d2a32178014c255db47/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/775675ed8b9ac96f51844d2a32178014c255db47.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "asimov-module",
+          "ecosystem": "CARGO",
+          "version": "25.0.0-dev.21",
+          "githubOrg": "asimov-platform",
+          "githubRepo": "asimov.rs",
+          "githubCommit": "3df82e987f30ab589274c6102831086fc03eb1fa",
+          "githubTag": "25.0.0-dev.21",
+          "githubUrl": "https://github.com/asimov-platform/asimov.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "whatsapp-rust",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "jlucaso1",
+          "githubRepo": "whatsapp-rust",
+          "githubCommit": "f61297b42942964002b7826508cf166169cebb60",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/jlucaso1/whatsapp-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "wacore-binary",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "jlucaso1",
+          "githubRepo": "whatsapp-rust",
+          "githubCommit": "f61297b42942964002b7826508cf166169cebb60",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/jlucaso1/whatsapp-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "waproto",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "jlucaso1",
+          "githubRepo": "whatsapp-rust",
+          "githubCommit": "f61297b42942964002b7826508cf166169cebb60",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/jlucaso1/whatsapp-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "qrcode",
+          "ecosystem": "CARGO",
+          "version": "0.14.1",
+          "githubOrg": "kennytm",
+          "githubRepo": "qrcode-rust",
+          "githubCommit": "0695f037c5b43999a6cdf08984974b8d0388ad78",
+          "githubTag": "v0.14.1",
+          "githubUrl": "https://github.com/kennytm/qrcode-rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.49.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "e3b89bbefa7564e2eba2fb9f849ef7bf87d60fad",
+          "githubTag": "tokio-1.49.0",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clientele",
+          "ecosystem": "CARGO",
+          "version": "0.3.8",
+          "githubOrg": "dryrust",
+          "githubRepo": "clientele.rs",
+          "githubCommit": "18a9d41f329119836131c590ec8710bdddc65862",
+          "githubTag": "0.3.8",
+          "githubUrl": "https://github.com/dryrust/clientele.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "miette",
+          "ecosystem": "CARGO",
+          "version": "7.6.0",
+          "githubOrg": "zkat",
+          "githubRepo": "miette",
+          "githubCommit": "907857058dc255caeae456e87146c629ce69cf5c",
+          "githubTag": "v7.6.0",
+          "githubUrl": "https://github.com/zkat/miette",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "dotenvy",
+          "ecosystem": "CARGO",
+          "version": "0.15.7",
+          "githubOrg": "allan2",
+          "githubRepo": "dotenvy",
+          "githubCommit": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+          "githubTag": "v0.15.7",
+          "githubUrl": "https://github.com/allan2/dotenvy",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dotenvy-0.15.7/src/lib.rs"
+        },
+        {
+          "packageName": "whatsapp-rust-ureq-http-client",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "jlucaso1",
+          "githubRepo": "whatsapp-rust",
+          "githubCommit": "f61297b42942964002b7826508cf166169cebb60",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/jlucaso1/whatsapp-rust",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/whatsapp-rust-ureq-http-client-0.2.0/src/lib.rs"
+        },
+        {
+          "packageName": "whatsapp-rust-tokio-transport",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "jlucaso1",
+          "githubRepo": "whatsapp-rust",
+          "githubCommit": "f61297b42942964002b7826508cf166169cebb60",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/jlucaso1/whatsapp-rust",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/whatsapp-rust-tokio-transport-0.2.0/src/lib.rs"
+        },
+        {
+          "packageName": "whatsapp-rust-sqlite-storage",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "jlucaso1",
+          "githubRepo": "whatsapp-rust",
+          "githubCommit": "f61297b42942964002b7826508cf166169cebb60",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/jlucaso1/whatsapp-rust",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/whatsapp-rust-sqlite-storage-0.2.0/src/sqlite_store.rs"
+        },
+        {
+          "packageName": "wacore",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "jlucaso1",
+          "githubRepo": "whatsapp-rust",
+          "githubCommit": "f61297b42942964002b7826508cf166169cebb60",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/jlucaso1/whatsapp-rust",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wacore-0.2.0/src/pair_code.rs"
+        }
       ]
     }
   ],

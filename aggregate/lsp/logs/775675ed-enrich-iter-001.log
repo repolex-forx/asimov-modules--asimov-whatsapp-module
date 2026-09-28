@@ -1,0 +1,18 @@
+[2026-09-28T07:34:48Z] === ENRICH ITERATION 1 START | repo=asimov-modules/asimov-whatsapp-module sha=775675ed ===
+[2026-09-28T07:34:48Z] [iter=1] PHASE START: enrich repo=asimov-modules/asimov-whatsapp-module sha=775675ed runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/775675ed-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/775675ed8b9ac96f51844d2a32178014c255db47.nq.gz
+[2026-09-28T07:34:58Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-28T07:35:01Z] [iter=1] AST store loaded triples=44625 load_secs=3 mem_mb=153 MB
+[2026-09-28T07:35:01Z] [iter=1] Step 2: Finding LSP targets mem_mb=153 MB
+[2026-09-28T07:35:01Z] [iter=1] LSP targets found call_sites=510 imports=36 extends=0 implements=0 secs=0
+[2026-09-28T07:35:01Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=153 MB
+[2026-09-28T07:35:01Z] [iter=1] Position index built positions=2933 nodes_with_types=3735 secs=0 mem_mb=153 MB
+[2026-09-28T07:35:01Z] [iter=1] Step 3: Starting LSP resolution mem_mb=153 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T07:35:01Z] [iter=1] Resolving target type target_type=call_site count=510
+[2026-09-28T07:35:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=src/bin/emitter.rs
+[2026-09-28T07:36:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=1 resolved=82 errors=16 current=src/bin/authorizer.rs
+[2026-09-28T07:36:17Z] [iter=1] Target type resolved target_type=call_site resolved=390 errors=66 secs=76 mem_mb=153 MB
+[2026-09-28T07:36:17Z] [iter=1] Resolving target type target_type=import_statement count=36
+[2026-09-28T07:36:41Z] [iter=1] Target type resolved target_type=import_statement resolved=36 errors=0 secs=24 mem_mb=153 MB
+[2026-09-28T07:37:05Z] [iter=1] Step 5: Writing final enrichment file triples=4804
+[2026-09-28T07:37:05Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/775675ed8b9ac96f51844d2a32178014c255db47.nq.gz size_kb=80
+[2026-09-28T07:37:05Z] [iter=1] PHASE END: enrich elapsed_s=138 elapsed_min=2.3 total_triples=4804
